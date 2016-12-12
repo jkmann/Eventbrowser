@@ -18,10 +18,11 @@ import java.util.List;
 public class Meetup {
 
     private String title;
-    private String year;
-    private String imdbId;
-    private String type;
-    private String posterUrl;
+    private String description;
+    private String hostName;
+    private String lat;
+    private String lon;
+    private String pictureUrl;
 
     /**
      *
@@ -30,18 +31,18 @@ public class Meetup {
      * @throws JSONException
      */
     public static List<Meetup> parseJson(JSONObject jsonObject) throws JSONException{
-        List<Meetup> movies = new ArrayList<>();
+        List<Meetup> meetups = new ArrayList<>();
         // Check if the JSONObject has object with key "Search"
         if(jsonObject.has("Search")){
             // Get JSONArray from JSONObject
             JSONArray jsonArray = jsonObject.getJSONArray("Search");
             for(int i = 0; i < jsonArray.length(); i++){
                 // Create new Meetup object from each JSONObject in the JSONArray
-                movies.add(new Meetup(jsonArray.getJSONObject(i)));
+                meetups.add(new Meetup(jsonArray.getJSONObject(i)));
             }
         }
 
-        return movies;
+        return meetups;
     }
 
     /**
@@ -61,10 +62,11 @@ public class Meetup {
      */
     private Meetup(JSONObject jsonObject) throws JSONException {
         if(jsonObject.has("Title")) this.setTitle(jsonObject.getString("Title"));
-        if(jsonObject.has("Year")) this.setYear(jsonObject.getString("Year"));
-        if(jsonObject.has("imdbID")) this.setImdbId(jsonObject.getString("imdbID"));
-        if(jsonObject.has("Type")) this.setType(jsonObject.getString("Type"));
-        if(jsonObject.has("Poster")) this.setPosterUrl(jsonObject.getString("Poster"));
+        if(jsonObject.has("Description")) this.setDescription(jsonObject.getString("Description"));
+        if(jsonObject.has("Host Name")) this.setHostName(jsonObject.getString("Host Name"));
+        if(jsonObject.has("Latitude")) this.setLat(jsonObject.getString("Latitude"));
+        if(jsonObject.has("Longitude")) this.setLon(jsonObject.getString("Longitude"));
+        if(jsonObject.has("Picture")) this.setPictureUrl(jsonObject.getString("Picture"));
     }
 
     public String getTitle() {
@@ -75,35 +77,43 @@ public class Meetup {
         this.title = title;
     }
 
-    public String getYear() {
-        return year;
+    public String getDescription() {
+        return description;
     }
 
-    public void setYear(String year) {
-        this.year = year;
+    public void setDescription(String description) {
+        this.description = description;
     }
 
-    public String getImdbId() {
-        return imdbId;
+    public String getHostName() {
+        return hostName;
     }
 
-    public void setImdbId(String imdbId) {
-        this.imdbId = imdbId;
+    public void setHostName(String hostName) {
+        this.hostName = hostName;
     }
 
-    public String getType() {
-        return type;
+    public String getLat() {
+        return lat;
     }
 
-    public void setType(String type) {
-        this.type = type;
+    public void setLat(String lat) {
+        this.lat = lat;
     }
 
-    public String getPosterUrl() {
-        return posterUrl;
+    public String getLon() {
+        return lon;
     }
 
-    public void setPosterUrl(String posterUrl) {
-        this.posterUrl = posterUrl;
+    public void setLon(String lon) {
+        this.lon = lon;
+    }
+
+    public String getPictureUrl() {
+        return pictureUrl;
+    }
+
+    public void setPictureUrl(String pictureUrl) {
+        this.pictureUrl = pictureUrl;
     }
 }

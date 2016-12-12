@@ -44,8 +44,10 @@ public class JsonController {
 
         // Url with GET parameters, ?s means youre going to have a bunch of varbles in your path,
         // type &t= is movie
-        String url = "http://www.omdbapi.com/?s=" + Uri.encode(query) + "&t=movie";
 
+        //String url = "http://www.omdbapi.com/?s=" + Uri.encode(query) + "&t=movie";
+
+        String url = "https://api.meetup.com/find/groups?&sign=true&photo-host=public&text=" + Uri.encode(query);
         // Create new request using JsonRequest
         JsonRequest request
             = new JsonRequest(

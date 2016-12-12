@@ -12,6 +12,7 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.example.csc413_volley_template.model.Meetup;
 
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -46,14 +47,16 @@ public class JsonRequest extends Request<List<Meetup>> {
         String jsonString = new String(response.data);
         List<Meetup> meetups;
         JSONObject jsonObject;
+        JSONArray jsonArray;
         Log.i(this.getClass().getName(), jsonString);
         // Try to convert JsonString to list of movies
         try {
             // Convert JsonString to JSONObject
             //this jsonObject is going to have 3: search, total results, and response
-            jsonObject = new JSONObject(jsonString);
+
+            jsonArray = new JSONArray(jsonString);
             // Get list of movies from received JSON
-            meetups = Meetup.parseJson(jsonObject);
+            meetups = Meetup.parseJson(jsonArray);
         }
         // in case of exception, return volley error
         catch (JSONException e) {

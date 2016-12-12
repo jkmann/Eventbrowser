@@ -26,21 +26,20 @@ public class Meetup {
 
     /**
      *
-     * @param jsonObject    {@link JSONObject} response, received in Volley success listener
+     * @param jsonArray    {@link JSONObject} response, received in Volley success listener
      * @return  list of movies
      * @throws JSONException
      */
-    public static List<Meetup> parseJson(JSONObject jsonObject) throws JSONException{
+    public static List<Meetup> parseJson(JSONArray jsonArray) throws JSONException{
         List<Meetup> meetups = new ArrayList<>();
         // Check if the JSONObject has object with key "Search"
-        if(jsonObject.has("Search")){
-            // Get JSONArray from JSONObject
-            JSONArray jsonArray = jsonObject.getJSONArray("Search");
+
+
             for(int i = 0; i < jsonArray.length(); i++){
                 // Create new Meetup object from each JSONObject in the JSONArray
                 meetups.add(new Meetup(jsonArray.getJSONObject(i)));
             }
-        }
+
 
         return meetups;
     }
@@ -61,12 +60,12 @@ public class Meetup {
      * @throws JSONException     when parser fails to parse the given JSON
      */
     private Meetup(JSONObject jsonObject) throws JSONException {
-        if(jsonObject.has("name")) this.setTitle(jsonObject.getString("Title"));
-        if(jsonObject.has("description")) this.setDescription(jsonObject.getString("Description"));
-        if(jsonObject.has("urlname")) this.setHostName(jsonObject.getString("Host Name"));
-        if(jsonObject.has("lat")) this.setLat(jsonObject.getString("Latitude"));
-        if(jsonObject.has("lon")) this.setLon(jsonObject.getString("Longitude"));
-        if(jsonObject.has("photo_link")) this.setPictureUrl(jsonObject.getString("Picture"));
+        if(jsonObject.has("name")) this.setTitle(jsonObject.getString("name"));
+        //if(jsonObject.has("description")) this.setDescription(jsonObject.getString("description"));
+        //if(jsonObject.has("urlname")) this.setHostName(jsonObject.getString("urlname"));
+        //if(jsonObject.has("lat")) this.setLat(jsonObject.getString("lat"));
+        //if(jsonObject.has("lon")) this.setLon(jsonObject.getString("lon"));
+        if(jsonObject.has("photo_link")) this.setPictureUrl(jsonObject.getString("photo_link"));
     }
 
     public String getTitle() {
@@ -85,25 +84,25 @@ public class Meetup {
         this.description = description;
     }
 
-    public String getHostName() {
-        return hostName;
-    }
+    //public String getHostName() {
+     //   return hostName;
+    //}
 
     public void setHostName(String hostName) {
         this.hostName = hostName;
     }
 
-    public String getLat() {
-        return lat;
-    }
+    //public String getLat() {
+   //     return lat;
+    //}
 
     public void setLat(String lat) {
         this.lat = lat;
     }
 
-    public String getLon() {
-        return lon;
-    }
+    //public String getLon() {
+      //  return lon;
+    //}
 
     public void setLon(String lon) {
         this.lon = lon;

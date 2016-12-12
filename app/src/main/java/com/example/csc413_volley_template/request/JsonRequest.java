@@ -66,7 +66,7 @@ public class JsonRequest extends Request<List<Meetup>> {
     }
 
     @Override
-    protected void deliverResponse(List<Meetup> movies) {
-        successListener.onResponse(movies);
+    protected void deliverResponse(List<Meetup> meetups) {
+        successListener.onResponse(meetups);
     }
 }

@@ -56,8 +56,8 @@ public class JsonController {
                 //if you pass call this:
                 new Response.Listener<List<Meetup>>() {
                     @Override
-                    public void onResponse(List<Meetup> movies) {
-                        responseListener.onSuccess(movies);
+                    public void onResponse(List<Meetup> meetups) {
+                        responseListener.onSuccess(meetups);
                     }
                 },
                 //if you fail call this
@@ -89,7 +89,7 @@ public class JsonController {
      *  <p>Object available in {@link JsonRequest} and implemented in {@link com.example.csc413_volley_template.MainActivity}</p>
      */
     public interface OnResponseListener {
-        void onSuccess(List<Meetup> movies);
+        void onSuccess(List<Meetup> meetups);
         void onFailure(String errorMessage);
     }
 

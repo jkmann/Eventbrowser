@@ -142,7 +142,7 @@ public class MainActivity extends AppCompatActivity
      * <p>This method will be invoked when user press on poster of the meetup</p>
      */
     @Override
-    public void onPosterClick(Meetup meetup) {
+    public void onPictureClick(Meetup meetup) {
         Toast.makeText(this, meetup.getTitle() + " poster clicked", Toast.LENGTH_SHORT).show();
     }
 }

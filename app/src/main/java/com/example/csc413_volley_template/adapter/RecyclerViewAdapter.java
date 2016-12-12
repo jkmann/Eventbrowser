@@ -42,8 +42,8 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerView.ViewH
 
         CardViewHolder cardViewHolder = (CardViewHolder) holder;
         cardViewHolder.setTitle(meetup.getTitle());
-        cardViewHolder.setYear(meetup.getYear());
-        cardViewHolder.setPosterUrl(meetup.getPosterUrl());
+        cardViewHolder.setDescription(meetup.getDescription());
+        cardViewHolder.setPictureUrl(meetup.getPictureUrl());
         if(listener!=null) {
             cardViewHolder.bindClickListener(listener, meetup);
         }
@@ -71,7 +71,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerView.ViewH
 
     public interface OnClickListener {
         void onCardClick(Meetup meetup);
-        void onPosterClick(Meetup meetup);
+        void onPictureClick(Meetup meetup);
     }
 
     /**
@@ -81,8 +81,8 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerView.ViewH
 
         private CardView cardView;
         private TextView title;
-        private TextView year;
-        private NetworkImageView poster;
+        private TextView description;
+        private NetworkImageView picture;
 
         /**
          * Class constructor.
@@ -92,8 +92,8 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerView.ViewH
             super(view);
             this.cardView = (CardView) view.findViewById(R.id.card_view);
             this.title = (TextView) view.findViewById(R.id.tvTitle);
-            this.year = (TextView) view.findViewById(R.id.tvYear);
-            this.poster = (NetworkImageView) view.findViewById(R.id.nivPoster);
+            this.description = (TextView) view.findViewById(R.id.tvYear);
+            this.picture = (NetworkImageView) view.findViewById(R.id.nivPoster);
         }
 
         /**
@@ -107,11 +107,11 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerView.ViewH
 
         /**
          * append year text to Release Year:
-         * @param year String of year of release
+         * @param description String of year of release
          */
-        void setYear(String year) {
-            String y = "Release Year:\n" + year;
-            this.year.setText(y);
+        void setDescription(String description) {
+            String y = "Description:\n" + description;
+            this.description.setText(y);
         }
 
         /**
@@ -120,9 +120,9 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerView.ViewH
          * Check VolleySingleton class for more details.
          * @param imageUrl URL to poster of the Meetup
          */
-        void setPosterUrl(String imageUrl) {
+        void setPictureUrl(String imageUrl) {
             ImageLoader imageLoader = VolleySingleton.getInstance(App.getContext()).getImageLoader();
-            this.poster.setImageUrl(imageUrl, imageLoader);
+            this.picture.setImageUrl(imageUrl, imageLoader);
         }
 
         /**
@@ -138,10 +138,10 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerView.ViewH
                 }
             });
 
-            poster.setOnClickListener(new View.OnClickListener() {
+            picture.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    listener.onPosterClick(meetup);
+                    listener.onPictureClick(meetup);
                 }
             });
         }

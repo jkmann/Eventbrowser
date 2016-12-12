@@ -44,7 +44,7 @@ public class JsonRequest extends Request<List<Meetup>> {
     protected Response<List<Meetup>> parseNetworkResponse(NetworkResponse response) {
         // Convert byte[] data received in the response to String
         String jsonString = new String(response.data);
-        List<Meetup> movies;
+        List<Meetup> meetups;
         JSONObject jsonObject;
         Log.i(this.getClass().getName(), jsonString);
         // Try to convert JsonString to list of movies
@@ -53,7 +53,7 @@ public class JsonRequest extends Request<List<Meetup>> {
             //this jsonObject is going to have 3: search, total results, and response
             jsonObject = new JSONObject(jsonString);
             // Get list of movies from received JSON
-            movies = Meetup.parseJson(jsonObject);
+            meetups = Meetup.parseJson(jsonObject);
         }
         // in case of exception, return volley error
         catch (JSONException e) {
@@ -62,7 +62,7 @@ public class JsonRequest extends Request<List<Meetup>> {
             return Response.error(new VolleyError("Failed to process the request"));
         }
         // return list of movies
-        return Response.success(movies, getCacheEntry());
+        return Response.success(meetups, getCacheEntry());
     }
 
     @Override

@@ -61,12 +61,12 @@ public class Meetup {
      * @throws JSONException     when parser fails to parse the given JSON
      */
     private Meetup(JSONObject jsonObject) throws JSONException {
-        if(jsonObject.has("Title")) this.setTitle(jsonObject.getString("Title"));
-        if(jsonObject.has("Description")) this.setDescription(jsonObject.getString("Description"));
-        if(jsonObject.has("Host Name")) this.setHostName(jsonObject.getString("Host Name"));
-        if(jsonObject.has("Latitude")) this.setLat(jsonObject.getString("Latitude"));
-        if(jsonObject.has("Longitude")) this.setLon(jsonObject.getString("Longitude"));
-        if(jsonObject.has("Picture")) this.setPictureUrl(jsonObject.getString("Picture"));
+        if(jsonObject.has("name")) this.setTitle(jsonObject.getString("Title"));
+        if(jsonObject.has("description")) this.setDescription(jsonObject.getString("Description"));
+        if(jsonObject.has("urlname")) this.setHostName(jsonObject.getString("Host Name"));
+        if(jsonObject.has("lat")) this.setLat(jsonObject.getString("Latitude"));
+        if(jsonObject.has("lon")) this.setLon(jsonObject.getString("Longitude"));
+        if(jsonObject.has("photo_link")) this.setPictureUrl(jsonObject.getString("Picture"));
     }
 
     public String getTitle() {

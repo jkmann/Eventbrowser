@@ -30,5 +30,8 @@ dependencies {
     compile 'com.android.support:recyclerview-v7:25.0.1'
     compile 'com.android.volley:volley:1.0.0'
     testCompile 'junit:junit:4.12'
-    compile files('C:/Users/Tony/Desktop/Team23-EventBrowserFinale/libs/jsoup-1.10.1.jar')
+    compile 'org.jsoup:jsoup:1.8.3'
+    // https://mvnrepository.com/artifact/org.jsoup/jsoup
+    //compile group: 'org.jsoup', name: 'jsoup', version: '1.8.3'
+
 }

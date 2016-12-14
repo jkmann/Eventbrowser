@@ -65,7 +65,9 @@ public class Meetup {
         //if(jsonObject.has("urlname")) this.setHostName(jsonObject.getString("urlname"));
         //if(jsonObject.has("lat")) this.setLat(jsonObject.getString("lat"));
         //if(jsonObject.has("lon")) this.setLon(jsonObject.getString("lon"));
-        if(jsonObject.has("photo_link")) this.setPictureUrl(jsonObject.getString("photo_link"));
+        if(jsonObject.has("group_photo")) {
+            this.setPictureUrl(jsonObject.getJSONObject("group_photo").getString("photo_link"));
+        }
     }
 
     public String getTitle() {

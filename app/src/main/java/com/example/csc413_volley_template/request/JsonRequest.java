@@ -53,7 +53,6 @@ public class JsonRequest extends Request<List<Meetup>> {
         try {
             // Convert JsonString to JSONObject
             //this jsonObject is going to have 3: search, total results, and response
-
             jsonArray = new JSONArray(jsonString);
             // Get list of movies from received JSON
             meetups = Meetup.parseJson(jsonArray);

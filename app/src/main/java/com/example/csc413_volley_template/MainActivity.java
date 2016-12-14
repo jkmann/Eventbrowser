@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity
         setSupportActionBar(toolbar);
 
         textView = (TextView) findViewById(R.id.tvEmptyRecyclerView);
-        textView.setText("Search for movies using SearchView in toolbar");
+        textView.setText("Search for events using SearchView in toolbar");
 
         recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getApplicationContext());

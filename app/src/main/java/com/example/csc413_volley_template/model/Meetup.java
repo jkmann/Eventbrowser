@@ -4,6 +4,7 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -61,7 +62,7 @@ public class Meetup {
      */
     private Meetup(JSONObject jsonObject) throws JSONException {
         if(jsonObject.has("name")) this.setTitle(jsonObject.getString("name"));
-        //if(jsonObject.has("description")) this.setDescription(jsonObject.getString("description"));
+        if(jsonObject.has("description")) this.setDescription(shorten(jsonObject.getString("description")));
         //if(jsonObject.has("urlname")) this.setHostName(jsonObject.getString("urlname"));
         //if(jsonObject.has("lat")) this.setLat(jsonObject.getString("lat"));
         //if(jsonObject.has("lon")) this.setLon(jsonObject.getString("lon"));
@@ -116,5 +117,11 @@ public class Meetup {
 
     public void setPictureUrl(String pictureUrl) {
         this.pictureUrl = pictureUrl;
+    }
+
+    public static String shorten(String sentence){
+        sentence = sentence.replaceAll("\\<.*?>","");
+        sentence = sentence.substring(0, Math.min(sentence.length(),30));
+        return sentence;
     }
 }

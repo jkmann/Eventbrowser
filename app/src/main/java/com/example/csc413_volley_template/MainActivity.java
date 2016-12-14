@@ -1,5 +1,6 @@
 package com.example.csc413_volley_template;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.view.MenuItemCompat;
 import android.support.v7.app.AppCompatActivity;
@@ -126,6 +127,13 @@ public class MainActivity extends AppCompatActivity
             textView.setVisibility(View.VISIBLE);
         }
         return true;
+    }
+
+
+    @Override
+    public void onClick(View v) {
+        Intent intent = new Intent(MainActivity.this, DetailsActivity.class);
+        startActivity(intent);
     }
 
     /**

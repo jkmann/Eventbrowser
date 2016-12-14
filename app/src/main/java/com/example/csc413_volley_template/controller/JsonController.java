@@ -47,7 +47,7 @@ public class JsonController {
 
         //String url = "http://www.omdbapi.com/?s=" + Uri.encode(query) + "&t=movie";
 
-        String url = "https://api.meetup.com/find/groups?&sign=true&photo-host=public&key=2113b6e71f73f7f5c6d5518677a5&text="
+        String url = "https://api.meetup.com/find/groups?&sign=true&photo-host=public&key=5b7b265615f4c1c6d4130145a7d164&text="
                 + Uri.encode(query);
         // Create new request using JsonRequest
         JsonRequest request

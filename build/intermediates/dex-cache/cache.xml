@@ -3,6 +3,15 @@
 
     <item
         is-multidex="false"
+        jar="C:\Users\Tony\Desktop\Team23-EventBrowserFinale\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="C:\Users\Tony\Desktop\Team23-EventBrowserFinale\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.0.1_d624f80859a70d64911263174f7c9a51f6847c13.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\Tony\Downloads\Team23-EventBrowserFinale\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -12,39 +21,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Tony\Downloads\Team23-EventBrowserFinale\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
-        <dex dex="C:\Users\Tony\Downloads\Team23-EventBrowserFinale\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_9d0a13a900b392aa4a88970362d3c78c91ab2f3c.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\Tony\Downloads\Team23-EventBrowserFinale\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.1"
         sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
         <dex dex="C:\Users\Tony\Downloads\Team23-EventBrowserFinale\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.0.1_6c53426ade13101ec5c7a99de5d36988878d9767.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Tony\Downloads\Team23-EventBrowserFinale\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
-        <dex dex="C:\Users\Tony\Downloads\Team23-EventBrowserFinale\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-25.0.1_376bcc73863f6452ecffdf2fd3580af56e86e212.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Tony\Downloads\Team23-EventBrowserFinale\app\build\intermediates\exploded-aar\com.android.support\design\25.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
-        <dex dex="C:\Users\Tony\Downloads\Team23-EventBrowserFinale\app\build\intermediates\pre-dexed\debug\com.android.support-design-25.0.1_05350a8294e0b481a805d01fde81db88c280b807.jar" />
     </item>
     <item
         is-multidex="false"
@@ -66,21 +48,30 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Tony\Downloads\Team23-EventBrowserFinale\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\classes.jar"
+        jar="C:\Users\Tony\Desktop\Team23-EventBrowserFinale\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.0.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.1"
-        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
-        <dex dex="C:\Users\Tony\Downloads\Team23-EventBrowserFinale\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.0.1_1ca7977e14bb3fcf2b780a602d17cc3b26a6bf36.jar" />
+        sha1="1108575c7dc7b7f5b378b3290ac90de81a9b8830">
+        <dex dex="C:\Users\Tony\Desktop\Team23-EventBrowserFinale\app\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-25.0.1_9ceb44b15aa209ebda4ffde9f9972ed7ebf19019.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Tony\Downloads\Team23-EventBrowserFinale\app\build\intermediates\exploded-aar\com.android.support\transition\25.0.1\jars\classes.jar"
+        jar="C:\Users\Tony\Desktop\Team23-EventBrowserFinale\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.1"
-        sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
-        <dex dex="C:\Users\Tony\Downloads\Team23-EventBrowserFinale\app\build\intermediates\pre-dexed\debug\com.android.support-transition-25.0.1_6a0353623fab0fec9bf29fe6e5ce1109e765c69d.jar" />
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="C:\Users\Tony\Desktop\Team23-EventBrowserFinale\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_444dd5a15af24f5d8504cd4e511af1a191b96368.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Tony\Desktop\Team23-EventBrowserFinale\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="C:\Users\Tony\Desktop\Team23-EventBrowserFinale\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.0.1_ba8b74b474bf06dcc60cedca863bdad7318eeb8b.jar" />
     </item>
     <item
         is-multidex="false"
@@ -102,6 +93,186 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\Tony\Desktop\Team23-EventBrowserFinale\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Tony\Desktop\Team23-EventBrowserFinale\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.0.1_d30d3e1c91982a59814d3cf0debf2c70aa04d0ae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Tony\Desktop\Team23-EventBrowserFinale\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
+        <dex dex="C:\Users\Tony\Desktop\Team23-EventBrowserFinale\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-25.0.1_d3a9370e07948c5765fd2b17254f230a3bafa25d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Tony\Desktop\Team23-EventBrowserFinale\app\build\intermediates\exploded-aar\com.android.volley\volley\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="C:\Users\Tony\Desktop\Team23-EventBrowserFinale\app\build\intermediates\pre-dexed\debug\com.android.volley-volley-1.0.0_d0026b34ae45e9b8f5841d5dd5cee073b159c4c7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Tony\Downloads\Team23-EventBrowserFinale\app\build\intermediates\exploded-aar\com.android.volley\volley\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="C:\Users\Tony\Downloads\Team23-EventBrowserFinale\app\build\intermediates\pre-dexed\debug\com.android.volley-volley-1.0.0_de10c589b14550da02ebf745340e6c22de37aa3d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Tony\Desktop\Team23-EventBrowserFinale\app\build\intermediates\exploded-aar\com.android.support\transition\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
+        <dex dex="C:\Users\Tony\Desktop\Team23-EventBrowserFinale\app\build\intermediates\pre-dexed\debug\com.android.support-transition-25.0.1_2497b7044f850df4474bd188bb15b69e94a8e3e6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Tony\Desktop\Team23-EventBrowserFinale\app\build\intermediates\exploded-aar\com.android.support\design\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
+        <dex dex="C:\Users\Tony\Desktop\Team23-EventBrowserFinale\app\build\intermediates\pre-dexed\debug\com.android.support-design-25.0.1_616ed14c6966a6f21c2457c7a2fc0e3db708b41f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Tony\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\Users\Tony\Desktop\Team23-EventBrowserFinale\app\build\intermediates\pre-dexed\debug\picasso-2.5.2_ea1617b70ec8426ecc2e2e82cc1d0d8d7171f867.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Tony\Desktop\Team23-EventBrowserFinale\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="C:\Users\Tony\Desktop\Team23-EventBrowserFinale\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.0.1_532b21368427b564e282adfef5c5b52b51d5a2ec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Tony\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="C:\Users\Tony\Downloads\Team23-EventBrowserFinale\app\build\intermediates\pre-dexed\debug\support-annotations-25.0.1_23275f5f95dea34de3951c6f44c6d05d15eb0116.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Tony\Downloads\Team23-EventBrowserFinale\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Tony\Downloads\Team23-EventBrowserFinale\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.0.1_f34e914da5a58d786c98838e7f37ca12e9d18604.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Tony\Desktop\Team23-EventBrowserFinale\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="C:\Users\Tony\Desktop\Team23-EventBrowserFinale\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_116c99d5bb21b84a4f8013a06d00979929aaff76.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Tony\Downloads\Team23-EventBrowserFinale\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="C:\Users\Tony\Downloads\Team23-EventBrowserFinale\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_31d190b2c8019550f416db5408dd55483e9d742b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Tony\Desktop\Team23-EventBrowserFinale\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="C:\Users\Tony\Desktop\Team23-EventBrowserFinale\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.0.1_a96330dd6c0e928e42a079f335ee14b8e325b54e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Tony\Downloads\Team23-EventBrowserFinale\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="C:\Users\Tony\Downloads\Team23-EventBrowserFinale\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_9d0a13a900b392aa4a88970362d3c78c91ab2f3c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Tony\Downloads\Team23-EventBrowserFinale\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
+        <dex dex="C:\Users\Tony\Downloads\Team23-EventBrowserFinale\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-25.0.1_376bcc73863f6452ecffdf2fd3580af56e86e212.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Tony\Downloads\Team23-EventBrowserFinale\app\build\intermediates\exploded-aar\com.android.support\design\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
+        <dex dex="C:\Users\Tony\Downloads\Team23-EventBrowserFinale\app\build\intermediates\pre-dexed\debug\com.android.support-design-25.0.1_05350a8294e0b481a805d01fde81db88c280b807.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Tony\Desktop\Team23-EventBrowserFinale\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="C:\Users\Tony\Desktop\Team23-EventBrowserFinale\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_4678c6d53165ec7abe2f1d096a8c65758c299ea6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Tony\Downloads\Team23-EventBrowserFinale\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="C:\Users\Tony\Downloads\Team23-EventBrowserFinale\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.0.1_1ca7977e14bb3fcf2b780a602d17cc3b26a6bf36.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Tony\Downloads\Team23-EventBrowserFinale\app\build\intermediates\exploded-aar\com.android.support\transition\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
+        <dex dex="C:\Users\Tony\Downloads\Team23-EventBrowserFinale\app\build\intermediates\pre-dexed\debug\com.android.support-transition-25.0.1_6a0353623fab0fec9bf29fe6e5ce1109e765c69d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Tony\Desktop\Team23-EventBrowserFinale\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="C:\Users\Tony\Desktop\Team23-EventBrowserFinale\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.0.1_01bc2cdc0b8adace455000314ca4e849dd44da21.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\Tony\.gradle\caches\modules-2\files-2.1\org.jsoup\jsoup\1.8.3\65fd012581ded67bc20945d85c32b4598c3a9cf1\jsoup-1.8.3.jar"
         jumboMode="false"
         optimize="true"
@@ -117,6 +288,24 @@
         revision="25.0.1"
         sha1="f83b00041ecfba705603fec40363416c7de69719">
         <dex dex="C:\Users\Tony\Downloads\Team23-EventBrowserFinale\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_4f19393aef206070546adcfa3371b0d426a984d1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Tony\Desktop\Team23-EventBrowserFinale\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="C:\Users\Tony\Desktop\Team23-EventBrowserFinale\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.0.1_469821f02124b63d1379d639f9777bb440c2c598.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Tony\Desktop\Team23-EventBrowserFinale\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="C:\Users\Tony\Desktop\Team23-EventBrowserFinale\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.0.1_d445d0538a6efc557d7c8b94bc29f3b280ab2da0.jar" />
     </item>
     <item
         is-multidex="false"
@@ -138,12 +327,30 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Tony\Downloads\Team23-EventBrowserFinale\app\build\intermediates\exploded-aar\com.android.volley\volley\1.0.0\jars\classes.jar"
+        jar="C:\Users\Tony\Desktop\Team23-EventBrowserFinale\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.1"
-        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
-        <dex dex="C:\Users\Tony\Downloads\Team23-EventBrowserFinale\app\build\intermediates\pre-dexed\debug\com.android.volley-volley-1.0.0_de10c589b14550da02ebf745340e6c22de37aa3d.jar" />
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="C:\Users\Tony\Desktop\Team23-EventBrowserFinale\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.0.1_a7605de484ca7bdd2e9ec2ebb600747f8cacf72d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Tony\Desktop\Team23-EventBrowserFinale\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="C:\Users\Tony\Desktop\Team23-EventBrowserFinale\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_94171c2b4073f6196537585fc94670c27a25199c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Tony\Desktop\Team23-EventBrowserFinale\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="C:\Users\Tony\Desktop\Team23-EventBrowserFinale\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_2707a2f84eabf5e2f9500df4515134508e9b0342.jar" />
     </item>
     <item
         is-multidex="false"
@@ -156,39 +363,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Tony\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
-        <dex dex="C:\Users\Tony\Downloads\Team23-EventBrowserFinale\app\build\intermediates\pre-dexed\debug\support-annotations-25.0.1_23275f5f95dea34de3951c6f44c6d05d15eb0116.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\Tony\Downloads\Team23-EventBrowserFinale\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.1"
         sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
         <dex dex="C:\Users\Tony\Downloads\Team23-EventBrowserFinale\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_6fd796dae8ee63618085a5161c0d07da34844c24.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Tony\Downloads\Team23-EventBrowserFinale\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\Tony\Downloads\Team23-EventBrowserFinale\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.0.1_f34e914da5a58d786c98838e7f37ca12e9d18604.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Tony\Downloads\Team23-EventBrowserFinale\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="C:\Users\Tony\Downloads\Team23-EventBrowserFinale\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_31d190b2c8019550f416db5408dd55483e9d742b.jar" />
     </item>
 
 </items>

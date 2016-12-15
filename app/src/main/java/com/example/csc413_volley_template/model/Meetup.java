@@ -64,7 +64,7 @@ public class Meetup {
      */
     private Meetup(JSONObject jsonObject) throws JSONException {
         if(jsonObject.has("name")) this.setTitle(jsonObject.getString("name"));
-        if(jsonObject.has("description")) this.setDescription(shorten(jsonObject.getString("description"),500));
+        if(jsonObject.has("description")) this.setDescription(shorten(jsonObject.getString("description"),770));
         if(jsonObject.has("organizer")) this.setHostName(jsonObject.getJSONObject("organizer").getString("name"));
         //if(jsonObject.has("lat")) this.setLat(jsonObject.getString("lat"));
         //if(jsonObject.has("lon")) this.setLon(jsonObject.getString("lon"));

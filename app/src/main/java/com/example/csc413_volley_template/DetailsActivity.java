@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.squareup.picasso.Picasso;
 
 
 public class DetailsActivity extends AppCompatActivity {
@@ -47,7 +48,13 @@ public class DetailsActivity extends AppCompatActivity {
         cityView.setText(city);
         membersNumber.setText(members);
         description.setText(descr);
-        //imageView.setImageBitmap(BitmapFactory.decodeFile(imageUrl));
+        try {
+            Picasso.with(getBaseContext()).load(imageUrl.replace(".png", ".jpeg")).into(imageView);
+        }
+        catch(Exception e){
+
+        }
+
 
     }
 }

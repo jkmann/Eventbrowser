@@ -70,6 +70,8 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerView.ViewH
     }
 
     public interface OnClickListener {
+        void onClick(View v);
+
         void onCardClick(Meetup meetup);
         void onPictureClick(Meetup meetup);
     }

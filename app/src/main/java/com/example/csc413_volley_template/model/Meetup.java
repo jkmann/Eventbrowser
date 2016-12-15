@@ -24,6 +24,8 @@ public class Meetup {
     private String lat;
     private String lon;
     private String pictureUrl;
+    private String city;
+    private String members;
 
     /**
      *
@@ -62,13 +64,15 @@ public class Meetup {
      */
     private Meetup(JSONObject jsonObject) throws JSONException {
         if(jsonObject.has("name")) this.setTitle(jsonObject.getString("name"));
-        if(jsonObject.has("description")) this.setDescription(shorten(jsonObject.getString("description")));
-        //if(jsonObject.has("urlname")) this.setHostName(jsonObject.getString("urlname"));
+        if(jsonObject.has("description")) this.setDescription(shorten(jsonObject.getString("description"),500));
+        if(jsonObject.has("organizer")) this.setHostName(jsonObject.getJSONObject("organizer").getString("name"));
         //if(jsonObject.has("lat")) this.setLat(jsonObject.getString("lat"));
         //if(jsonObject.has("lon")) this.setLon(jsonObject.getString("lon"));
         if(jsonObject.has("group_photo")) {
             this.setPictureUrl(jsonObject.getJSONObject("group_photo").getString("photo_link"));
         }
+        if(jsonObject.has("city")) this.setCity(jsonObject.getString("city") + ", " + jsonObject.getString("state") + ", " + jsonObject.getString("country"));
+        if(jsonObject.has("members")) this.setMembers("Members: " + jsonObject.getString("members"));
     }
 
     public String getTitle() {
@@ -87,9 +91,9 @@ public class Meetup {
         this.description = description;
     }
 
-    //public String getHostName() {
-     //   return hostName;
-    //}
+    public String getHostName() {
+        return hostName;
+    }
 
     public void setHostName(String hostName) {
         this.hostName = hostName;
@@ -119,9 +123,28 @@ public class Meetup {
         this.pictureUrl = pictureUrl;
     }
 
-    public static String shorten(String sentence){
+    public String getCity() {
+        return city;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
+    }
+
+    public String getMembers() {
+        return members;
+    }
+
+    public void setMembers(String members) {
+        this.members = members;
+    }
+
+    public static String shorten(String sentence, int limit){
         sentence = sentence.replaceAll("\\<.*?>","");
-        sentence = sentence.substring(0, Math.min(sentence.length(),30));
+        sentence = sentence.substring(0, Math.min(sentence.length(),limit));
+        if(sentence.length()>=limit){
+            sentence = sentence + "...";
+        }
         return sentence;
     }
 }

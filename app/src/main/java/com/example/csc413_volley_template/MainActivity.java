@@ -21,6 +21,8 @@ import com.example.csc413_volley_template.model.Meetup;
 import java.util.ArrayList;
 import java.util.List;
 
+import static com.example.csc413_volley_template.model.Meetup.shorten;
+
 public class MainActivity extends AppCompatActivity
         implements
         SearchView.OnQueryTextListener,
@@ -142,7 +144,15 @@ public class MainActivity extends AppCompatActivity
      */
     @Override
     public void onCardClick(Meetup meetup) {
-        Toast.makeText(this, meetup.getTitle() + " clicked", Toast.LENGTH_SHORT).show();
+
+        Intent intent = new Intent(MainActivity.this, DetailsActivity.class);
+        intent.putExtra("title",meetup.getTitle());
+        intent.putExtra("host",meetup.getHostName());
+        intent.putExtra("city",meetup.getCity());
+        intent.putExtra("members",meetup.getMembers());
+        intent.putExtra("description",meetup.getDescription());
+        intent.putExtra("imageUrl",meetup.getPictureUrl());
+        startActivity(intent);
     }
 
     /**
@@ -151,6 +161,15 @@ public class MainActivity extends AppCompatActivity
      */
     @Override
     public void onPictureClick(Meetup meetup) {
-        Toast.makeText(this, meetup.getTitle() + " poster clicked", Toast.LENGTH_SHORT).show();
+
+        Intent intent = new Intent(MainActivity.this, DetailsActivity.class);
+        intent.putExtra("title",meetup.getTitle());
+        intent.putExtra("host",meetup.getHostName());
+        intent.putExtra("city",meetup.getCity());
+        intent.putExtra("members",meetup.getMembers());
+        intent.putExtra("description",meetup.getDescription());
+        intent.putExtra("imageUrl",meetup.getPictureUrl());
+        startActivity(intent);
+
     }
 }

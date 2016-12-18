@@ -5,6 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
+    android:background="#000"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
     tools:context="com.example.csc413_volley_template.MainActivity">
@@ -18,7 +19,7 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
+            android:background="#e51937"
             app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
 
         </android.support.v7.widget.Toolbar>
@@ -38,6 +39,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="No results found"
+        android:textColor="#ffffff"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:gravity="center"
         android:layout_below="@+id/action_bar" />

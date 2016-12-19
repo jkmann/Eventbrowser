@@ -42,13 +42,13 @@
         android:textColor="#ffffff"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:gravity="center"
-        android:layout_below="@+id/action_bar" />
+        android:layout_below="@+id/action_bar"
+        android:layout_above="@+id/btnShowLocation"/>
 
     <Button android:id="@+id/btnShowLocation"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Show Location"
-            android:layout_marginBottom="180dp"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"/>
 

@@ -9,59 +9,68 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+                android:background="#000"
     tools:context="com.example.csc413_volley_template.DetailsActivity">
 
-    <TextView
-        android:text="TextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:id="@+id/event_title"
-        android:layout_alignEnd="@+id/group_title" />
+
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/loader"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
         android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
         android:id="@+id/imageView" />
 
     <TextView
         android:text="TextView"
+        android:layout_centerHorizontal="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:layout_below="@id/imageView"
+        android:id="@+id/event_title"/>
+
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/event_title"
         android:id="@+id/city_view"
-        android:layout_marginBottom="40dp"
-        android:layout_above="@+id/members_number"
-        android:layout_alignParentStart="true" />
+        />
 
     <TextView
         android:text="TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="#ffffff"
         android:id="@+id/group_title"
-        android:layout_below="@+id/event_title"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="46dp"
-        android:layout_alignEnd="@+id/city_view" />
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/city_view" />
 
     <TextView
         android:text="TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/description"
-        android:layout_marginTop="69dp"
-        android:layout_below="@+id/imageView"
-        android:layout_alignParentStart="true" />
-
-    <TextView
-        android:text="TextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
         android:id="@+id/members_number"
-        android:layout_above="@+id/description"
-        android:layout_alignParentStart="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/group_title"  />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:id="@+id/description"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/members_number" />
+
+
 
 </RelativeLayout>

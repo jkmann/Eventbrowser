@@ -4,7 +4,7 @@
 #### Team Members
 Mary Silva, Tony Filippo, Jasmine Mann
 #### Youtube video Link
-https://www.youtube.com/watch?v=0y1_D2OfR_o
+https://www.youtube.com/watch?v=0y1_D2OfR_o  
 
 ## Problem statement:
 You are to build on your project1 by adding real world functionality into your app. You must query an appropriate API, and populate cards. By default, you must work with the Meetup API. But you can decide to use any other API after asking on Piazza(IMDB,etc)

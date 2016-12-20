@@ -1,10 +1,10 @@
 #Project-2 Story Finder Finale
 #### Team Number
-TODO - Add your team number here.(Look into Piazza for details)
+23
 #### Team Members
-TODO - Add your team member names here.
+Mary Silva, Tony Filippo, Jasmine Mann
 #### Youtube video Link
-TODO - Add your team's unlisted youtube video link here.
+https://www.youtube.com/watch?v=0y1_D2OfR_o
 
 ## Problem statement:
 You are to build on your project1 by adding real world functionality into your app. You must query an appropriate API, and populate cards. By default, you must work with the Meetup API. But you can decide to use any other API after asking on Piazza(IMDB,etc)

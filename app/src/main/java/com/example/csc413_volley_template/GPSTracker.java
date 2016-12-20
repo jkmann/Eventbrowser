@@ -11,8 +11,11 @@ import android.location.LocationManager;
 import android.os.Bundle;
 import android.os.IBinder;
 import android.provider.Settings;
+import android.support.v4.app.ActivityCompat;
 import android.util.Log;
-
+import android.Manifest;
+import android.app.Activity;
+import android.content.pm.PackageManager;
 public class GPSTracker extends Service implements LocationListener {
 
     private final Context mContext;
@@ -58,6 +61,8 @@ public class GPSTracker extends Service implements LocationListener {
                     .isProviderEnabled(LocationManager.NETWORK_PROVIDER);
 
             if (!isGPSEnabled && !isNetworkEnabled) {
+
+
                 // no network provider is enabled
             } else {
                 this.canGetLocation = true;

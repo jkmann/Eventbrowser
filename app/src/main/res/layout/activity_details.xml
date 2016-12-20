@@ -24,7 +24,7 @@
         android:id="@+id/imageView" />
 
     <TextView
-        android:text="TextView"
+        android:text="Event Title"
         android:layout_centerHorizontal="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -35,7 +35,7 @@
 
 
     <TextView
-        android:text="TextView"
+        android:text="City View"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="#ffffff"
@@ -45,7 +45,7 @@
         />
 
     <TextView
-        android:text="TextView"
+        android:text="Group Title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="#ffffff"
@@ -54,7 +54,7 @@
         android:layout_below="@id/city_view" />
 
     <TextView
-        android:text="TextView"
+        android:text="Members"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="#ffffff"
@@ -62,14 +62,43 @@
         android:layout_centerHorizontal="true"
         android:layout_below="@id/group_title"  />
 
+
     <TextView
-        android:text="TextView"
+        android:text="Latitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:id="@+id/group_lat"
+        android:layout_below="@id/group_title"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:text="Latitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:id="@+id/group_long"
+        android:layout_below="@id/group_lat"
+        android:layout_centerHorizontal="true"/>
+
+
+
+    <Button android:id="@+id/btnShowLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Location"
+            android:layout_below="@id/group_long"
+            android:layout_centerHorizontal="true"/>
+
+
+    <TextView
+        android:text="Description"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="#ffffff"
         android:id="@+id/description"
         android:layout_centerHorizontal="true"
-        android:layout_below="@id/members_number" />
+        android:layout_below="@id/btnShowLocation"/>
 
 
 

@@ -70,7 +70,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="992209168668733b4081c09de9f7eaa418851f24">
+        sha1="ac75559f52be95904303b36255f4d1de4d3def5b">
         <dex dex="/Users/marysilva/AndroidStudioProjects/Team23-EventBrowserFinale/app/build/intermediates/pre-dexed/debug/instant-run_a31769f4674d77d613f44a710309f740dc36712b.jar" />
     </item>
     <item
@@ -196,7 +196,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="752f08120561ab979027fb499e76e45a5772eb2b">
+        sha1="38aa62b015eeb2e687176823a16d5044eb3f4bfd">
         <dex dex="/Users/marysilva/AndroidStudioProjects/Team23-EventBrowserFinale/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_32a37b918aafa7f448e15750af9f02e73ae635b9.jar" />
     </item>
     <item

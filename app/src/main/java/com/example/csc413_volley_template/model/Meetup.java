@@ -66,8 +66,8 @@ public class Meetup {
         if(jsonObject.has("name")) this.setTitle(jsonObject.getString("name"));
         if(jsonObject.has("description")) this.setDescription(shorten(jsonObject.getString("description"),770));
         if(jsonObject.has("organizer")) this.setHostName(jsonObject.getJSONObject("organizer").getString("name"));
-        //if(jsonObject.has("lat")) this.setLat(jsonObject.getString("lat"));
-        //if(jsonObject.has("lon")) this.setLon(jsonObject.getString("lon"));
+        if(jsonObject.has("latitude")) this.setLat(jsonObject.getString("latitude"));
+        if(jsonObject.has("longitude")) this.setLon(jsonObject.getString("longitude"));
         if(jsonObject.has("group_photo")) {
             this.setPictureUrl(jsonObject.getJSONObject("group_photo").getString("photo_link"));
         }
@@ -99,17 +99,17 @@ public class Meetup {
         this.hostName = hostName;
     }
 
-    //public String getLat() {
-   //     return lat;
-    //}
+    public String getLat() {
+        return lat;
+    }
 
     public void setLat(String lat) {
         this.lat = lat;
     }
 
-    //public String getLon() {
-      //  return lon;
-    //}
+    public String getLon() {
+        return lon;
+    }
 
     public void setLon(String lon) {
         this.lon = lon;
